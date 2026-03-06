@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_me_test_links
+    - paragraphs.paragraphs_type.me_test_cta
+  module:
+    - link
+    - paragraphs
+id: paragraph.me_test_cta.field_me_test_links
+field_name: field_me_test_links
+entity_type: paragraph
+bundle: me_test_cta
+label: Buttons
+description: ''
+required: false
+translatable: true
+default_value: []
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

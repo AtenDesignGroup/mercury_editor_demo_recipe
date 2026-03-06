@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: me_test_heading
+label: Heading
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {}

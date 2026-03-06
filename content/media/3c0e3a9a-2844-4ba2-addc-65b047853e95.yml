@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3c0e3a9a-2844-4ba2-addc-65b047853e95
+  bundle: image
+  default_langcode: en
+  depends:
+    2f9b185d-92ff-46ca-a793-f3b92863ba22: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: peter-herrmann-reM9DrTViEg-unsplash.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: test
+      title: ''
+      width: 6678
+      height: 4443
+      entity: 2f9b185d-92ff-46ca-a793-f3b92863ba22

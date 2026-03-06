@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.me_test_button.field_me_test_button_link
+    - paragraphs.paragraphs_type.me_test_button
+  module:
+    - link
+    - paragraphs
+id: paragraph.me_test_button.default
+targetEntityType: paragraph
+bundle: me_test_button
+mode: default
+content:
+  field_me_test_button_link:
+    weight: 0
+    label: hidden
+    settings: {}
+    third_party_settings: {}
+    type: link
+    region: content
+hidden: {}

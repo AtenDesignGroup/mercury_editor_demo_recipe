@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d0464b24-043e-49ef-bc7c-c027c0f6a003
+  bundle: image
+  default_langcode: en
+  depends:
+    e55a4fd3-5d91-4b5a-bbb4-6bedb018e89b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: zoha-gohar-Ys3w8oOw-ho-unsplash.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: test
+      title: ''
+      width: 6192
+      height: 4128
+      entity: e55a4fd3-5d91-4b5a-bbb4-6bedb018e89b

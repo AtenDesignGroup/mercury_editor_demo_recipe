@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.me_test_slideshow.field_me_test_slides
+    - paragraphs.paragraphs_type.me_test_slideshow
+  module:
+    - paragraphs
+id: paragraph.me_test_slideshow.default
+targetEntityType: paragraph
+bundle: me_test_slideshow
+mode: default
+content:
+  field_me_test_slides:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {}
+    type: entity_reference_entity_view
+    region: content
+hidden: {}

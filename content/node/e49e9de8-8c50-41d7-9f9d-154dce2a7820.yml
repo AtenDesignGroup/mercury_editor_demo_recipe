@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e49e9de8-8c50-41d7-9f9d-154dce2a7820
+  bundle: me_test_ct
+  default_langcode: en
+  depends:
+    fc12ffe7-0933-406a-aa33-98a165877066: paragraph
+    ce9e9929-5e19-457b-910e-32b285897574: paragraph
+    566939b2-a7bf-40cd-969f-117d0351b5c9: paragraph
+    12360473-2b0b-4cab-9f20-cdcb4002f8af: paragraph
+    4e7f9fef-6a27-445e-a557-b150c1d22fc4: paragraph
+    1ebbb1f4-e489-46d8-b896-157cc515436c: paragraph
+    7a46443c-5e6b-4c0d-9884-def129a23cb9: paragraph
+    df20641f-a141-443a-9a51-0ef6961f1960: paragraph
+    3e9b12fb-676e-4278-b9d4-375103b9ba65: paragraph
+    1e918e11-94a6-4e86-a9e1-865a1cd537b7: paragraph
+    b0eb1794-2fb1-4084-82be-ad61f8b88627: paragraph
+    6438c7eb-93b2-46cb-be30-c39e05e7eca8: paragraph
+    24a155d2-5c55-4303-b48c-952f8e76ab5b: paragraph
+    e75946f4-6ab6-48e5-b964-a267424df617: paragraph
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drupal Like You’ve Never Seen It'
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /welcome-to-mercury-editor
+      langcode: en
+  field_me_test_content:
+    -
+      entity: fc12ffe7-0933-406a-aa33-98a165877066
+    -
+      entity: ce9e9929-5e19-457b-910e-32b285897574
+    -
+      entity: 566939b2-a7bf-40cd-969f-117d0351b5c9
+    -
+      entity: 12360473-2b0b-4cab-9f20-cdcb4002f8af
+    -
+      entity: 4e7f9fef-6a27-445e-a557-b150c1d22fc4
+    -
+      entity: 1ebbb1f4-e489-46d8-b896-157cc515436c
+    -
+      entity: 7a46443c-5e6b-4c0d-9884-def129a23cb9
+    -
+      entity: df20641f-a141-443a-9a51-0ef6961f1960
+    -
+      entity: 3e9b12fb-676e-4278-b9d4-375103b9ba65
+    -
+      entity: 1e918e11-94a6-4e86-a9e1-865a1cd537b7
+    -
+      entity: b0eb1794-2fb1-4084-82be-ad61f8b88627
+    -
+      entity: 6438c7eb-93b2-46cb-be30-c39e05e7eca8
+    -
+      entity: 24a155d2-5c55-4303-b48c-952f8e76ab5b
+    -
+      entity: e75946f4-6ab6-48e5-b964-a267424df617

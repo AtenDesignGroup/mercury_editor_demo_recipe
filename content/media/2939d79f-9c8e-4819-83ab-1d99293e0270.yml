@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2939d79f-9c8e-4819-83ab-1d99293e0270
+  bundle: image
+  default_langcode: en
+  depends:
+    dd955ffc-1c2f-43a1-8b9c-ec81c61a49d0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: zdenek-machacek-oqYHtXrLXLo-unsplash.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: test
+      title: ''
+      width: 5472
+      height: 3648
+      entity: dd955ffc-1c2f-43a1-8b9c-ec81c61a49d0

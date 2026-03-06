@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dd955ffc-1c2f-43a1-8b9c-ec81c61a49d0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: zdenek-machacek-oqYHtXrLXLo-unsplash.jpg
+  uri:
+    -
+      value: 'public://2026-03/zdenek-machacek-oqYHtXrLXLo-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4315120
+  status:
+    -
+      value: true

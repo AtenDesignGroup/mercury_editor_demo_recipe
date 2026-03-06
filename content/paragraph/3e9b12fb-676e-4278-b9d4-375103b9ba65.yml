@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 3e9b12fb-676e-4278-b9d4-375103b9ba65
+  bundle: me_test_cta
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: ''
+          region: ''
+  revision_translation_affected:
+    -
+      value: true
+  field_me_test_links:
+    -
+      uri: 'internal:/'
+      title: 'Get in Touch'
+      options: {  }
+    -
+      uri: 'internal:/'
+      title: Newsletter
+      options: {  }
+  field_me_test_title:
+    -
+      value: 'Keep up with Mercury Editor'

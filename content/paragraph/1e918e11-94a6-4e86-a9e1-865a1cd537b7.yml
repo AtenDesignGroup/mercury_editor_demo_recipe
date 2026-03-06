@@ -1,0 +1,23 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 1e918e11-94a6-4e86-a9e1-865a1cd537b7
+  bundle: me_test_heading
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: 7a46443c-5e6b-4c0d-9884-def129a23cb9
+          region: top
+  revision_translation_affected:
+    -
+      value: true
+  field_me_test_heading:
+    -
+      size: h3
+      text: 'Key Features'

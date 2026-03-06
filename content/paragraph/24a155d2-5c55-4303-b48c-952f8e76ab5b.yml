@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 24a155d2-5c55-4303-b48c-952f8e76ab5b
+  bundle: me_test_card
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: 7a46443c-5e6b-4c0d-9884-def129a23cb9
+          region: first
+  revision_translation_affected:
+    -
+      value: true
+  field_me_test_link:
+    -
+      uri: 'https://www.drupal.org/project/mercury_editor'
+      title: 'Learn More'
+      options:
+        attributes:
+          class:
+            - button
+            - button--secondary
+  field_me_test_text:
+    -
+      value: '<p>Drag-and-drop custom components to build flexible, visually compelling landing pages.</p>'
+      format: basic_html
+  field_me_test_title:
+    -
+      value: 'Component-Based Editing'

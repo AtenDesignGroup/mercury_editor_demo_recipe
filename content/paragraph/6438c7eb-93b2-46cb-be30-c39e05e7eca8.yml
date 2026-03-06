@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 6438c7eb-93b2-46cb-be30-c39e05e7eca8
+  bundle: me_test_featured_card
+  default_langcode: en
+  depends:
+    c466b066-eae6-4463-85f9-6ce0619444ce: media
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: 7a46443c-5e6b-4c0d-9884-def129a23cb9
+          region: second
+  revision_translation_affected:
+    -
+      value: true
+  field_me_test_link:
+    -
+      uri: 'https://www.drupal.org/project/mercury_editor'
+      title: ''
+      options: {  }
+  field_me_test_media:
+    -
+      entity: c466b066-eae6-4463-85f9-6ce0619444ce
+  field_me_test_title:
+    -
+      value: 'Create custom layouts in seconds with Mercury’s easy-to-use Drupal page builder.'

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 07d884bd-7ec1-4196-9ee9-f84e89336b70
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: leonardo-iribe-zG87D_xiAVQ-unsplash.jpg
+  uri:
+    -
+      value: 'public://2026-03/leonardo-iribe-zG87D_xiAVQ-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2457822
+  status:
+    -
+      value: true

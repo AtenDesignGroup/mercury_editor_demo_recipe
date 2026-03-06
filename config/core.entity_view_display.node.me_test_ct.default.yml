@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.me_test_ct.field_me_test_content
+    - node.type.me_test_ct
+  module:
+    - layout_paragraphs
+    - node
+id: node.me_test_ct.default
+targetEntityType: node
+bundle: me_test_ct
+mode: default
+content:
+  field_me_test_content:
+    weight: 0
+    label: hidden
+    settings: {}
+    third_party_settings: {}
+    type: layout_paragraphs
+    region: content
+hidden:
+  links: true

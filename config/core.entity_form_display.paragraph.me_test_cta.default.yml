@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.me_test_cta.field_me_test_title
+    - field.field.paragraph.me_test_cta.field_me_test_links
+    - paragraphs.paragraphs_type.me_test_cta
+  module:
+    - link
+    - paragraphs
+id: paragraph.me_test_cta.default
+targetEntityType: paragraph
+bundle: me_test_cta
+mode: default
+content:
+  field_me_test_title:
+    weight: 0
+    settings: {}
+    third_party_settings: {}
+    type: string_textfield
+    region: content
+  field_me_test_links:
+    weight: 1
+    settings: {}
+    third_party_settings: {}
+    type: link_default
+    region: content
+hidden: {}

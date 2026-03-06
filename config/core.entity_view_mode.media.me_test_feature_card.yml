@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.me_test_feature_card
+label: 'ME Test Feature Card'
+targetEntityType: media
+cache: true

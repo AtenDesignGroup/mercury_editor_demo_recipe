@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c466b066-eae6-4463-85f9-6ce0619444ce
+  bundle: image
+  default_langcode: en
+  depends:
+    a928bbf6-84f7-45e7-9f0c-0340ea2eaf3a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Layout Icon 2'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Icon showing layouts'
+      title: 'Layout Icon 2'
+      width: 0
+      height: 0
+      entity: a928bbf6-84f7-45e7-9f0c-0340ea2eaf3a

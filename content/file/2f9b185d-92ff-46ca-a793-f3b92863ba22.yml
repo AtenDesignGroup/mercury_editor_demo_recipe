@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2f9b185d-92ff-46ca-a793-f3b92863ba22
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: peter-herrmann-reM9DrTViEg-unsplash.jpg
+  uri:
+    -
+      value: 'public://2026-03/peter-herrmann-reM9DrTViEg-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7209842
+  status:
+    -
+      value: true

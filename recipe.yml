@@ -1,0 +1,29 @@
+name: 'Mercury Editor Demo'
+description: 'Sets up the Mercury Editor demo content type, paragraph types, and content builder configuration.'
+type: 'Site'
+
+recipes:
+  - core/recipes/image_media_type
+  - core/recipes/remote_video_media_type
+
+install:
+  - field
+  - text
+  - link
+  - heading
+  - svg_image
+  - twig_field_value
+  - mercury_editor
+  - mercury_editor_demo
+
+config:
+  actions:
+    field.field.media.image.field_media_image:
+      simpleConfigUpdate:
+        settings.file_extensions: 'png gif jpg jpeg webp svg'
+    mercury_editor.settings:
+      simpleConfigUpdate:
+        bundles:
+          node:
+            me_test_ct: me_test_ct
+        edit_screen_theme: claro

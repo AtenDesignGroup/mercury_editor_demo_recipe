@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: df20641f-a141-443a-9a51-0ef6961f1960
+  bundle: me_test_slideshow
+  default_langcode: en
+  depends:
+    089f1af5-d021-4793-aa57-0b17ccb352b5: media
+    3c0e3a9a-2844-4ba2-addc-65b047853e95: media
+    2939d79f-9c8e-4819-83ab-1d99293e0270: media
+    d0464b24-043e-49ef-bc7c-c027c0f6a003: media
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: ''
+          region: ''
+  revision_translation_affected:
+    -
+      value: true
+  field_me_test_slides:
+    -
+      entity: 089f1af5-d021-4793-aa57-0b17ccb352b5
+    -
+      entity: 3c0e3a9a-2844-4ba2-addc-65b047853e95
+    -
+      entity: 2939d79f-9c8e-4819-83ab-1d99293e0270
+    -
+      entity: d0464b24-043e-49ef-bc7c-c027c0f6a003

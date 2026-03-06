@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8307270e-86ba-475a-9d08-0e42d5f1b43b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rearrange.svg
+  uri:
+    -
+      value: 'public://rearrange.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 7752
+  status:
+    -
+      value: true

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 99bb5b8f-3745-4ab4-af67-e8d1b5001584
+  bundle: image
+  default_langcode: en
+  depends:
+    8307270e-86ba-475a-9d08-0e42d5f1b43b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Rearrange Icon 1'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Icon showing drag and drop rearrangement'
+      title: 'Rearrange Icon 1'
+      width: 0
+      height: 0
+      entity: 8307270e-86ba-475a-9d08-0e42d5f1b43b

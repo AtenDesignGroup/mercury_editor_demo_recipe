@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: me_test_featured_card
+label: 'Featured Card'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {}

@@ -1,0 +1,57 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_me_test_content
+    - node.type.me_test_ct
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.me_test_ct.field_me_test_content
+field_name: field_me_test_content
+entity_type: node
+bundle: me_test_ct
+label: 'Page Content'
+description: ''
+required: false
+translatable: true
+default_value: []
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      me_test_banner:
+        weight: 0
+        enabled: true
+      me_test_section:
+        weight: 1
+        enabled: true
+      me_test_text:
+        weight: 2
+        enabled: true
+      me_test_image:
+        weight: 3
+        enabled: true
+      me_test_gallery:
+        weight: 4
+        enabled: true
+      me_test_video:
+        weight: 5
+        enabled: true
+      me_test_card:
+        weight: 6
+        enabled: true
+      me_test_featured_card:
+        weight: 7
+        enabled: true
+      me_test_slideshow:
+        weight: 8
+        enabled: true
+      me_test_cta:
+        weight: 9
+        enabled: true
+field_type: entity_reference_revisions

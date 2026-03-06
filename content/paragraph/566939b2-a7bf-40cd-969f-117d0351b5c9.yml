@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 566939b2-a7bf-40cd-969f-117d0351b5c9
+  bundle: me_test_button
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        style_options:
+          button_style:
+            css_class: '1'
+          button_test:
+            property: neptune
+  revision_translation_affected:
+    -
+      value: true
+  field_me_test_button_link:
+    -
+      uri: 'https://www.drupal.org/project/mercury_editor'
+      title: 'Download the Drupal Module'
+      options: {  }

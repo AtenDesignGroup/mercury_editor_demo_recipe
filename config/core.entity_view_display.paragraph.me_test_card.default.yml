@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.me_test_card.field_me_test_title
+    - field.field.paragraph.me_test_card.field_me_test_text
+    - field.field.paragraph.me_test_card.field_me_test_link
+    - paragraphs.paragraphs_type.me_test_card
+  module:
+    - link
+    - paragraphs
+    - text
+id: paragraph.me_test_card.default
+targetEntityType: paragraph
+bundle: me_test_card
+mode: default
+content:
+  field_me_test_title:
+    weight: 0
+    label: hidden
+    settings: {}
+    third_party_settings: {}
+    type: string
+    region: content
+  field_me_test_text:
+    weight: 1
+    label: hidden
+    settings: {}
+    third_party_settings: {}
+    type: text_default
+    region: content
+  field_me_test_link:
+    weight: 2
+    label: hidden
+    settings: {}
+    third_party_settings: {}
+    type: link
+    region: content
+hidden: {}

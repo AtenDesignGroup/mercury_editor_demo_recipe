@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.me_test_banner.field_me_test_title
+    - field.field.paragraph.me_test_banner.field_me_test_text
+    - paragraphs.paragraphs_type.me_test_banner
+  module:
+    - paragraphs
+    - text
+id: paragraph.me_test_banner.default
+targetEntityType: paragraph
+bundle: me_test_banner
+mode: default
+content:
+  field_me_test_title:
+    weight: 0
+    label: hidden
+    settings: {}
+    third_party_settings: {}
+    type: string
+    region: content
+  field_me_test_text:
+    weight: 1
+    label: hidden
+    settings: {}
+    third_party_settings: {}
+    type: text_default
+    region: content
+hidden: {}

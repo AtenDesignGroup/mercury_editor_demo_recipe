@@ -16,6 +16,5 @@ default:
           regions:
             left: {  }
             right: {  }
-  revision_translation_affected:
-    -
-      value: true
+          parent_uuid: null
+          region: null

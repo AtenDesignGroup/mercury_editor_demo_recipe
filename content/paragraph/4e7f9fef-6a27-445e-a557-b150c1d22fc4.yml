@@ -15,6 +15,5 @@ default:
           layout: layout_onecol
           regions:
             content: {  }
-  revision_translation_affected:
-    -
-      value: true
+          parent_uuid: null
+          region: null

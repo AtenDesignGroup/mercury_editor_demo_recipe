@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: decb6da0-3742-4d80-8e6f-c33de258da14
+  bundle: me_test_featured_card
+  default_langcode: en
+  depends:
+    99bb5b8f-3745-4ab4-af67-e8d1b5001584: media
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: null
+          region: null
+  revision_translation_affected:
+    -
+      value: true
+  field_me_test_link:
+    -
+      uri: 'https://www.drupal.org/project/mercury_editor'
+      title: 'Malesuada suspendisse in vitae egestas fermentum'
+      options: {  }
+  field_me_test_media:
+    -
+      entity: 99bb5b8f-3745-4ab4-af67-e8d1b5001584
+  field_me_test_title:
+    -
+      value: 'Malesuada suspendisse in vitae egestas fermentum'

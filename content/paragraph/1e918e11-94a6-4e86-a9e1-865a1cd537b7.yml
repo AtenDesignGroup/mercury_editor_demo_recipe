@@ -14,10 +14,6 @@ default:
         layout_paragraphs:
           parent_uuid: 7a46443c-5e6b-4c0d-9884-def129a23cb9
           region: top
-  revision_translation_affected:
+  field_me_test_title:
     -
-      value: true
-  field_me_test_heading:
-    -
-      size: h3
-      text: 'Key Features'
+      value: 'Key Features'

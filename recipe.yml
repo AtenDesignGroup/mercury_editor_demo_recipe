@@ -10,7 +10,6 @@ install:
   - field
   - text
   - link
-  - heading
   - svg_image
   - twig_field_value
   - mercury_editor

@@ -1,0 +1,19 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 6ff747f1-c3d6-459c-9c98-701801573ec3
+  bundle: me_test_section
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          layout: layout_threecol_33_34_33
+          config:
+            label: ''
+          parent_uuid: null
+          region: null

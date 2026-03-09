@@ -12,11 +12,8 @@ default:
     -
       value:
         layout_paragraphs:
-          parent_uuid: ''
-          region: ''
-  revision_translation_affected:
-    -
-      value: true
+          parent_uuid: null
+          region: null
   field_me_test_links:
     -
       uri: 'internal:/'

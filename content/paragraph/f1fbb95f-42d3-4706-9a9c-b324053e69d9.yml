@@ -1,0 +1,22 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: f1fbb95f-42d3-4706-9a9c-b324053e69d9
+  bundle: me_test_heading
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: null
+          region: null
+  revision_translation_affected:
+    -
+      value: true
+  field_me_test_title:
+    -
+      value: 'Built with Mercury Editor'

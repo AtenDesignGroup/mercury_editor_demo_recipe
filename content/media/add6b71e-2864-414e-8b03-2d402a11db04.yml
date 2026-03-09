@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: add6b71e-2864-414e-8b03-2d402a11db04
+  bundle: image
+  default_langcode: en
+  depends:
+    f9ef1fc0-72ea-4768-beac-9910c908458b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: logo-climate-reality-project.png
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'The Climate Reality Project'
+      title: ''
+      width: 660
+      height: 150
+      entity: f9ef1fc0-72ea-4768-beac-9910c908458b

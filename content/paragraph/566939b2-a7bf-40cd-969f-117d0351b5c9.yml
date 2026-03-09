@@ -16,9 +16,9 @@ default:
             css_class: '1'
           button_test:
             property: neptune
-  revision_translation_affected:
-    -
-      value: true
+        layout_paragraphs:
+          parent_uuid: null
+          region: null
   field_me_test_button_link:
     -
       uri: 'https://www.drupal.org/project/mercury_editor'

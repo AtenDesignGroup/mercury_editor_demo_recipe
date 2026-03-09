@@ -10,11 +10,10 @@ default:
       value: true
   behavior_settings:
     -
-      value: {  }
-  revision_translation_affected:
+      value:
+        layout_paragraphs:
+          parent_uuid: null
+          region: null
+  field_me_test_title:
     -
-      value: true
-  field_me_test_heading:
-    -
-      size: h2
-      text: 'Welcome to Mercury Editor!'
+      value: 'Welcome to Mercury Editor!'

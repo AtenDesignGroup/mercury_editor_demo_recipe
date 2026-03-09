@@ -10,7 +10,7 @@ default:
       value: true
   behavior_settings:
     -
-      value: {  }
-  revision_translation_affected:
-    -
-      value: true
+      value:
+        layout_paragraphs:
+          parent_uuid: null
+          region: null

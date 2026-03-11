@@ -31,9 +31,9 @@ _meta:
     df20641f-a141-443a-9a51-0ef6961f1960: paragraph
     a26d9456-52d5-4c78-8a80-00670e08eb82: paragraph
     b2b9dbb8-e933-4f51-964e-cffe0c4aebf8: paragraph
-    decb6da0-3742-4d80-8e6f-c33de258da14: paragraph
-    2ad12902-e7e3-465c-8c43-3de8d5d414a7: paragraph
-    8d1a43c3-4920-4b5b-8e6a-a659a121cfed: paragraph
+    a9623b14-59e3-4c39-950f-df7a1f1cd643: paragraph
+    92b50e8a-5bd5-4764-abdf-bddca450670f: paragraph
+    b1ad91e8-adee-4083-aba7-1ee8ed9f7e92: paragraph
     3e9b12fb-676e-4278-b9d4-375103b9ba65: paragraph
 default:
   revision_uid:
@@ -54,9 +54,6 @@ default:
   sticky:
     -
       value: false
-  revision_translation_affected:
-    -
-      value: true
   path:
     -
       alias: /welcome-to-mercury-editor
@@ -115,10 +112,10 @@ default:
     -
       entity: b2b9dbb8-e933-4f51-964e-cffe0c4aebf8
     -
-      entity: decb6da0-3742-4d80-8e6f-c33de258da14
+      entity: a9623b14-59e3-4c39-950f-df7a1f1cd643
     -
-      entity: 2ad12902-e7e3-465c-8c43-3de8d5d414a7
+      entity: 92b50e8a-5bd5-4764-abdf-bddca450670f
     -
-      entity: 8d1a43c3-4920-4b5b-8e6a-a659a121cfed
+      entity: b1ad91e8-adee-4083-aba7-1ee8ed9f7e92
     -
       entity: 3e9b12fb-676e-4278-b9d4-375103b9ba65

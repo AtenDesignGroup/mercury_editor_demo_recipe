@@ -6,7 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.me_test_slideshow
   module:
     - media_library
-    - paragraphs
 id: paragraph.me_test_slideshow.default
 targetEntityType: paragraph
 bundle: me_test_slideshow
@@ -14,8 +13,10 @@ mode: default
 content:
   field_me_test_slides:
     weight: 0
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
     type: media_library_widget
     region: content
-hidden: {}
+hidden:
+  created: true
+  status: true

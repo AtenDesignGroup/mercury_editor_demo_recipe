@@ -2,20 +2,23 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.me_test_button.field_me_test_button_link
+    - field.field.paragraph.me_test_button.field_me_test_link
     - paragraphs.paragraphs_type.me_test_button
   module:
     - link
-    - paragraphs
 id: paragraph.me_test_button.default
 targetEntityType: paragraph
 bundle: me_test_button
 mode: default
 content:
-  field_me_test_button_link:
-    weight: 0
-    settings: {}
-    third_party_settings: {}
+  field_me_test_link:
     type: link_default
+    weight: 2
     region: content
-hidden: {}
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

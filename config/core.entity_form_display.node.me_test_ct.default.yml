@@ -6,25 +6,56 @@ dependencies:
     - node.type.me_test_ct
   module:
     - layout_paragraphs
-    - node
+    - path
 id: node.me_test_ct.default
 targetEntityType: node
 bundle: me_test_ct
 mode: default
 content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_me_test_content:
     weight: 1
     settings:
       empty_message: 'To get started, add a new component.'
-    third_party_settings: {}
+    third_party_settings: {  }
     type: layout_paragraphs
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
   title:
     weight: 0
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {}
+    third_party_settings: {  }
     type: string_textfield
     region: content
-hidden: {}
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden:
+  promote: true
+  sticky: true

@@ -6,7 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.me_test_cta
   module:
     - link
-    - paragraphs
 id: paragraph.me_test_cta.field_me_test_links
 field_name: field_me_test_links
 entity_type: paragraph
@@ -15,7 +14,7 @@ label: Buttons
 description: ''
 required: false
 translatable: true
-default_value: []
+default_value: {  }
 default_value_callback: ''
 settings:
   link_type: 17

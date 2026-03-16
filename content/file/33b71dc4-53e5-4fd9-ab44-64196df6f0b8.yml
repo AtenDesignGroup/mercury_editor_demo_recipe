@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 33b71dc4-53e5-4fd9-ab44-64196df6f0b8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: edit-text.svg
+  uri:
+    -
+      value: 'public://2026-03/edit-text.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 4112
+  status:
+    -
+      value: true

@@ -7,6 +7,9 @@ _meta:
   depends:
     8307270e-86ba-475a-9d08-0e42d5f1b43b: file
 default:
+  revision_user:
+    -
+      target_id: 1
   status:
     -
       value: true
@@ -15,7 +18,7 @@ default:
       target_id: 1
   name:
     -
-      value: 'Rearrange Icon 1'
+      value: Rearrange
   revision_translation_affected:
     -
       value: true
@@ -26,7 +29,7 @@ default:
   field_media_image:
     -
       alt: 'Icon showing drag and drop rearrangement'
-      title: 'Rearrange Icon 1'
+      title: ''
       width: 0
       height: 0
       entity: 8307270e-86ba-475a-9d08-0e42d5f1b43b

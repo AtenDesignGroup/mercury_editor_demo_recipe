@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e5cccc1d-11c1-4a80-8ef3-af4ec187421c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupal.svg
+  uri:
+    -
+      value: 'public://2026-03/drupal.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 2367
+  status:
+    -
+      value: true

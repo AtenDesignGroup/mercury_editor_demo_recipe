@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a8fae412-9556-4c17-a31b-7018959d4904
+  bundle: image
+  default_langcode: en
+  depends:
+    dcb5fd98-68fd-4a74-9861-749a870a455c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Controls
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Icon displaying checkmarks and controls'
+      title: ''
+      width: 0
+      height: 0
+      entity: dcb5fd98-68fd-4a74-9861-749a870a455c

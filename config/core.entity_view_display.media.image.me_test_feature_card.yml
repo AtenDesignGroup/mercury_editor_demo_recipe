@@ -3,9 +3,10 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.me_test_feature_card
+    - field.field.media.image.field_media_image
+    - media.type.image
   module:
-    - image
-    - media
+    - svg_image
 id: media.image.me_test_feature_card
 targetEntityType: media
 bundle: image
@@ -19,7 +20,7 @@ content:
       image_link: ''
       image_loading:
         attribute: lazy
-    third_party_settings: {}
+    third_party_settings: {  }
     type: image
     region: content
 hidden:

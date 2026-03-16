@@ -1,11 +1,8 @@
 langcode: en
 status: true
-dependencies:
-  module:
-    - node
-id: me_test_ct
-type: me_test_ct
+dependencies: {  }
 name: 'Mercury Editor Test Content Type'
+type: me_test_ct
 description: 'A content type for testing Mercury Editor.'
 help: 'Use this content type to test Mercury Editor components.'
 new_revision: true

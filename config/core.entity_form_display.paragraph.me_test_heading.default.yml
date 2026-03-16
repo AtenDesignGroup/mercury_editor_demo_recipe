@@ -2,19 +2,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.me_test_heading.field_me_test_title
+    - field.field.paragraph.me_test_heading.field_me_test_heading
     - paragraphs.paragraphs_type.me_test_heading
-  module:
-    - paragraphs
 id: paragraph.me_test_heading.default
 targetEntityType: paragraph
 bundle: me_test_heading
 mode: default
 content:
-  field_me_test_title:
-    weight: 0
-    settings: {}
-    third_party_settings: {}
+  field_me_test_heading:
     type: string_textfield
+    weight: 0
     region: content
-hidden: {}
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

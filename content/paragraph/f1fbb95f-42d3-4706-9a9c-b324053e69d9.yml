@@ -14,6 +14,6 @@ default:
         layout_paragraphs:
           parent_uuid: null
           region: null
-  field_me_test_title:
+  field_me_test_heading:
     -
       value: 'Built with Mercury Editor'

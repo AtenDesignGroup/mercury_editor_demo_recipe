@@ -2,35 +2,41 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.me_test_featured_card.field_me_test_title
-    - field.field.paragraph.me_test_featured_card.field_me_test_media
+    - field.field.paragraph.me_test_featured_card.field_me_test_heading
     - field.field.paragraph.me_test_featured_card.field_me_test_link
+    - field.field.paragraph.me_test_featured_card.field_me_test_media
     - paragraphs.paragraphs_type.me_test_featured_card
   module:
     - link
     - media_library
-    - paragraphs
 id: paragraph.me_test_featured_card.default
 targetEntityType: paragraph
 bundle: me_test_featured_card
 mode: default
 content:
-  field_me_test_title:
-    weight: 0
-    settings: {}
-    third_party_settings: {}
+  field_me_test_heading:
     type: string_textfield
-    region: content
-  field_me_test_media:
     weight: 1
-    settings: {}
-    third_party_settings: {}
-    type: media_library_widget
     region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_me_test_link:
-    weight: 2
-    settings: {}
-    third_party_settings: {}
     type: link_default
+    weight: 2
     region: content
-hidden: {}
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_me_test_media:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 8f3fda0a-6c62-4af7-bd8c-c0b0b850376b
+  bundle: me_test_teaser
+  default_langcode: en
+  depends:
+    a8fae412-9556-4c17-a31b-7018959d4904: media
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: 6ff747f1-c3d6-459c-9c98-701801573ec3
+          region: third
+  field_me_test_heading:
+    -
+      value: 'Control which components can be used in specific contexts, ensuring content authors work within established design and editorial guidelines.'
+  field_me_test_link:
+    -
+      uri: 'https://www.drupal.org/project/mercury_editor'
+      title: ''
+      options: {  }
+  field_me_test_media:
+    -
+      entity: a8fae412-9556-4c17-a31b-7018959d4904

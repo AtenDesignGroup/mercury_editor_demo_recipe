@@ -8,12 +8,11 @@ id: paragraph.field_me_test_links
 field_name: field_me_test_links
 entity_type: paragraph
 type: link
-settings:
-  link_type: 17
+settings: {  }
 module: link
 locked: false
 cardinality: -1
 translatable: true
-indexes: {}
+indexes: {  }
 persist_with_no_fields: false
 custom_storage: false

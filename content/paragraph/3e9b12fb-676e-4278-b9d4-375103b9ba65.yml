@@ -14,6 +14,9 @@ default:
         layout_paragraphs:
           parent_uuid: null
           region: null
+  field_me_test_heading:
+    -
+      value: 'keep up with Mercury Editor'
   field_me_test_links:
     -
       uri: 'internal:/'
@@ -23,6 +26,3 @@ default:
       uri: 'internal:/'
       title: Newsletter
       options: {  }
-  field_me_test_title:
-    -
-      value: 'Keep up with Mercury Editor'

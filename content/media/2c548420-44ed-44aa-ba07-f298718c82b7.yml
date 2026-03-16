@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2c548420-44ed-44aa-ba07-f298718c82b7
+  bundle: image
+  default_langcode: en
+  depends:
+    e5cccc1d-11c1-4a80-8ef3-af4ec187421c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Drupal
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Icon with the Drupal logo dressed up for Mercury Editor'
+      title: ''
+      width: 0
+      height: 0
+      entity: e5cccc1d-11c1-4a80-8ef3-af4ec187421c

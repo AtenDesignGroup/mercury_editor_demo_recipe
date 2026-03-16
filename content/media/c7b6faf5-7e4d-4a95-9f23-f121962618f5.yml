@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c7b6faf5-7e4d-4a95-9f23-f121962618f5
+  bundle: image
+  default_langcode: en
+  depends:
+    4fdcbef2-7f01-4d6e-a01d-d31da6c9d82b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Search
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Icon displaying search options'
+      title: ''
+      width: 0
+      height: 0
+      entity: 4fdcbef2-7f01-4d6e-a01d-d31da6c9d82b

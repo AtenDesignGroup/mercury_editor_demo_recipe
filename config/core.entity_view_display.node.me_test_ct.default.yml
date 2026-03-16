@@ -6,7 +6,7 @@ dependencies:
     - node.type.me_test_ct
   module:
     - layout_paragraphs
-    - node
+    - user
 id: node.me_test_ct.default
 targetEntityType: node
 bundle: me_test_ct
@@ -15,8 +15,8 @@ content:
   field_me_test_content:
     weight: 0
     label: hidden
-    settings: {}
-    third_party_settings: {}
+    settings: {  }
+    third_party_settings: {  }
     type: layout_paragraphs
     region: content
 hidden:

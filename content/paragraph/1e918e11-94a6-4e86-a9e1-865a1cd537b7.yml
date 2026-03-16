@@ -14,6 +14,3 @@ default:
         layout_paragraphs:
           parent_uuid: 7a46443c-5e6b-4c0d-9884-def129a23cb9
           region: top
-  field_me_test_title:
-    -
-      value: 'Key Features'

@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.me_test_teaser.field_me_test_heading
+    - field.field.paragraph.me_test_teaser.field_me_test_link
+    - field.field.paragraph.me_test_teaser.field_me_test_media
+    - paragraphs.paragraphs_type.me_test_teaser
+  module:
+    - link
+id: paragraph.me_test_teaser.default
+targetEntityType: paragraph
+bundle: me_test_teaser
+mode: default
+content:
+  field_me_test_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_me_test_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_me_test_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: me_test_feature_card
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 71e018c6-0b83-444d-80b3-67fab7d051f9
+  bundle: image
+  default_langcode: en
+  depends:
+    33b71dc4-53e5-4fd9-ab44-64196df6f0b8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Edit Text'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Icon showing measurements for text'
+      title: ''
+      width: 0
+      height: 0
+      entity: 33b71dc4-53e5-4fd9-ab44-64196df6f0b8

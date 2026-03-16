@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8d73ef4a-17a4-4fa4-ac7a-8ddbdb8eabc6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: edit-content.svg
+  uri:
+    -
+      value: 'public://2026-03/edit-content.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 5666
+  status:
+    -
+      value: true

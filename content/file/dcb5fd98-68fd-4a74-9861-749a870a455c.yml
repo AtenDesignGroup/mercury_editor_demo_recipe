@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dcb5fd98-68fd-4a74-9861-749a870a455c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: controls.svg
+  uri:
+    -
+      value: 'public://2026-03/controls.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 3674
+  status:
+    -
+      value: true

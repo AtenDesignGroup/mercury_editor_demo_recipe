@@ -5,17 +5,17 @@ dependencies:
     - field.storage.paragraph.field_me_test_text
     - paragraphs.paragraphs_type.me_test_banner
   module:
-    - paragraphs
     - text
 id: paragraph.me_test_banner.field_me_test_text
 field_name: field_me_test_text
 entity_type: paragraph
 bundle: me_test_banner
-label: 'Banner Text'
+label: Text
 description: ''
 required: false
 translatable: true
-default_value: []
+default_value: {  }
 default_value_callback: ''
-settings: {}
+settings:
+  allowed_formats: {  }
 field_type: text_long

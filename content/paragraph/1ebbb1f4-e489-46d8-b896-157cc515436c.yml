@@ -14,10 +14,10 @@ default:
         layout_paragraphs:
           parent_uuid: 4e7f9fef-6a27-445e-a557-b150c1d22fc4
           region: content
+  field_me_test_heading:
+    -
+      value: 'Build flexible, engaging, media-rich pages for your website – no developer needed.'
   field_me_test_text:
     -
       value: '<p>Easily create, edit and rearrange content in Drupal – from simple text and images to slideshows and videos. Mercury Editor works seamlessly with existing Drupal 9 and Drupal 10 websites, without any licensing fees or restrictions.</p>'
       format: basic_html
-  field_me_test_title:
-    -
-      value: 'Build flexible, engaging, media-rich pages for your website – no developer needed.'

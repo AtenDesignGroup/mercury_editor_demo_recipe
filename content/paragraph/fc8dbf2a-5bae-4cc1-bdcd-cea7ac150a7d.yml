@@ -24,6 +24,6 @@ default:
   field_me_test_media:
     -
       entity: 99bb5b8f-3745-4ab4-af67-e8d1b5001584
-  field_me_test_title:
+  field_me_test_heading:
     -
       value: 'Control which components can be used in specific contexts, ensuring content authors work within established design and editorial guidelines.'

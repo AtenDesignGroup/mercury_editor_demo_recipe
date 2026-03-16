@@ -1,11 +1,9 @@
 langcode: en
 status: true
-dependencies:
-  module:
-    - paragraphs
+dependencies: {  }
 id: me_test_button
 label: Button
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {}
+behavior_plugins: {  }

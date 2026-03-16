@@ -2,38 +2,43 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.me_test_card.field_me_test_title
-    - field.field.paragraph.me_test_card.field_me_test_text
+    - field.field.paragraph.me_test_card.field_me_test_heading
     - field.field.paragraph.me_test_card.field_me_test_link
+    - field.field.paragraph.me_test_card.field_me_test_text
     - paragraphs.paragraphs_type.me_test_card
   module:
     - link
-    - paragraphs
     - text
 id: paragraph.me_test_card.default
 targetEntityType: paragraph
 bundle: me_test_card
 mode: default
 content:
-  field_me_test_title:
-    weight: 0
-    label: hidden
-    settings: {}
-    third_party_settings: {}
+  field_me_test_heading:
     type: string
-    region: content
-  field_me_test_text:
-    weight: 1
     label: hidden
-    settings: {}
-    third_party_settings: {}
-    type: text_default
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
     region: content
   field_me_test_link:
-    weight: 2
-    label: hidden
-    settings: {}
-    third_party_settings: {}
     type: link
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 2
     region: content
-hidden: {}
+  field_me_test_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

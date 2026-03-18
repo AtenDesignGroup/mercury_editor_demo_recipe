@@ -17,3 +17,6 @@ default:
             content: {  }
           parent_uuid: null
           region: null
+  revision_translation_affected:
+    -
+      value: true

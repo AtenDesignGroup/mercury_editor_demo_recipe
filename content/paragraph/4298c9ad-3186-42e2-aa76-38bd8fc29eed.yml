@@ -16,6 +16,9 @@ default:
         layout_paragraphs:
           parent_uuid: 86b1ba42-8d5b-4e55-8e1d-e663c80877fa
           region: second
+  revision_translation_affected:
+    -
+      value: true
   field_me_test_heading:
     -
       value: 'In est elementum elit diam facilisis ipsum ligula vitae mi enim non arcu varius diam nam.'

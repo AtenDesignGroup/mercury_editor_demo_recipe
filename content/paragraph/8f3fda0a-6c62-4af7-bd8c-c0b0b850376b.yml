@@ -16,6 +16,9 @@ default:
         layout_paragraphs:
           parent_uuid: 6ff747f1-c3d6-459c-9c98-701801573ec3
           region: third
+  revision_translation_affected:
+    -
+      value: true
   field_me_test_heading:
     -
       value: 'Control which components can be used in specific contexts, ensuring content authors work within established design and editorial guidelines.'

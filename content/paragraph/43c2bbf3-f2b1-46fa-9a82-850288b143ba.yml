@@ -16,6 +16,9 @@ default:
         layout_paragraphs:
           parent_uuid: 86b1ba42-8d5b-4e55-8e1d-e663c80877fa
           region: first
+  revision_translation_affected:
+    -
+      value: true
   field_me_test_heading:
     -
       value: 'Don’t limit yourself to subscriptions. This Drupal content editor is built on free software with no licensing fees.'

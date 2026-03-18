@@ -1,5 +1,5 @@
 {
-    "name": "AtenDesignGroup/mercury-editor-demo-recipe",
+    "name": "AtenDesignGroup/mercury_editor_demo_recipe",
     "description": "Sets up the Mercury Editor demo content type, paragraph types, and content builder configuration.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",

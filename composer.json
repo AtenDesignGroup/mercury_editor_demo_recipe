@@ -1,0 +1,32 @@
+{
+    "name": "AtenDesignGroup/mercury-editor-demo-recipe",
+    "description": "Sets up the Mercury Editor demo content type, paragraph types, and content builder configuration.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/AtenDesignGroup/mercury_editor_demo_recipe",
+    "support": {
+        "issues": "https://github.com/AtenDesignGroup/mercury_editor_demo_recipe/issues",
+        "source": "https://github.com/AtenDesignGroup/mercury_editor_demo_recipe"
+    },
+    "require": {
+        "php": ">=8.1",
+        "drupal/core": "^10.3 || ^11.0",
+        "drupal/field": "*",
+        "drupal/text": "*",
+        "drupal/link": "*",
+        "drupal/svg_image": "*",
+        "drupal/twig_field_value": "*",
+        "drupal/mercury_editor": "*",
+        "drupal/mercury_editor_demo": "*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "drupal": {
+            "version": "10.3.0"
+        }
+    }
+}

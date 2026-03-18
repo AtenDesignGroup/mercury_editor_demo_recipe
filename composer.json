@@ -8,17 +8,6 @@
         "issues": "https://github.com/AtenDesignGroup/mercury_editor_demo_recipe/issues",
         "source": "https://github.com/AtenDesignGroup/mercury_editor_demo_recipe"
     },
-    "require": {
-        "php": ">=8.1",
-        "drupal/core": "^10.3 || ^11.0",
-        "drupal/field": "*",
-        "drupal/text": "*",
-        "drupal/link": "*",
-        "drupal/svg_image": "*",
-        "drupal/twig_field_value": "*",
-        "drupal/mercury_editor": "*",
-        "drupal/mercury_editor_demo": "*"
-    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {

@@ -8,6 +8,9 @@
         "issues": "https://github.com/atendesigngroup/mercury_editor_demo_recipe/issues",
         "source": "https://github.com/atendesigngroup/mercury_editor_demo_recipe"
     },
+    "require": {
+      "atendesigngroup/mercury_editor_demo": "dev-main"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {

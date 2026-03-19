@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraph
+  uuid: 4c5c440a-3c99-4ec9-afec-7befb027e7c7
+  bundle: me_test_card
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  behavior_settings:
+    -
+      value:
+        layout_paragraphs:
+          parent_uuid: 3dc7b03c-7635-4abe-b5bf-fa8fdadae544
+          region: second
+  field_me_test_heading:
+    -
+      value: 'Why Mercury Editor?'
+  field_me_test_link:
+    -
+      uri: 'https://www.drupal.org/project/mercury_editor'
+      title: Button
+      options: {  }
+  field_me_test_text:
+    -
+      value: '<p>Create custom layouts in seconds with Mercury’s easy-to-use Drupal page builder.</p>'
+      format: basic_html

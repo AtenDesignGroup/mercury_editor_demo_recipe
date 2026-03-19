@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: 6df9da6b-add4-41a9-8834-2154d789f33d
+  uuid: 51ad1094-5a91-4b1d-b008-9fbf0a95348c
   bundle: me_test_heading
   default_langcode: en
 default:
@@ -16,4 +16,4 @@ default:
           region: null
   field_me_test_heading:
     -
-      value: 'Welcome to Mercury Editor!'
+      value: 'News & Insights'

@@ -1,8 +1,8 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: 6df9da6b-add4-41a9-8834-2154d789f33d
-  bundle: me_test_heading
+  uuid: ea7b2679-459c-4935-8101-60a3ddcee1de
+  bundle: me_test_section
   default_langcode: en
 default:
   status:
@@ -12,8 +12,8 @@ default:
     -
       value:
         layout_paragraphs:
+          layout: layout_threecol_33_34_33
+          config:
+            label: ''
           parent_uuid: null
           region: null
-  field_me_test_heading:
-    -
-      value: 'Welcome to Mercury Editor!'

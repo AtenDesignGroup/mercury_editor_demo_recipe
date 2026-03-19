@@ -1,8 +1,8 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: 566939b2-a7bf-40cd-969f-117d0351b5c9
-  bundle: me_test_button
+  uuid: ba3c6155-1738-4da9-ad28-7fbaa49e0f95
+  bundle: me_test_cta
   default_langcode: en
 default:
   status:
@@ -11,16 +11,18 @@ default:
   behavior_settings:
     -
       value:
-        style_options:
-          button_style:
-            css_class: '1'
-          button_test:
-            property: neptune
         layout_paragraphs:
           parent_uuid: null
           region: null
-  field_me_test_link:
+  field_me_test_heading:
+    -
+      value: 'Keep up with Mercury Editor'
+  field_me_test_links:
     -
       uri: 'https://www.drupal.org/project/mercury_editor'
-      title: Button
+      title: 'Get In Touch'
+      options: {  }
+    -
+      uri: 'https://www.drupal.org/project/mercury_editor'
+      title: Newsletter
       options: {  }

@@ -12,6 +12,7 @@
       "drupal/mercury_editor": "^3.0.0-alpha14",
       "atendesigngroup/mercury_editor_demo": "dev-main",
       "drupal/mercury_layouts": "2.0.x-dev",
+      "drupal/heading": "^2",
       "drupal/twig_field_value": "^2.0",
       "drupal/svg_image": "^3.0"
     },

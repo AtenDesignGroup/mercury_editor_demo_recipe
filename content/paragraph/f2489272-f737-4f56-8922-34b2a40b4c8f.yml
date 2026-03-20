@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: e75946f4-6ab6-48e5-b964-a267424df617
+  uuid: f2489272-f737-4f56-8922-34b2a40b4c8f
   bundle: me_test_card
   default_langcode: en
 default:
@@ -12,20 +12,17 @@ default:
     -
       value:
         layout_paragraphs:
-          parent_uuid: 7a46443c-5e6b-4c0d-9884-def129a23cb9
-          region: second
-  revision_translation_affected:
-    -
-      value: true
+          parent_uuid: 3dc7b03c-7635-4abe-b5bf-fa8fdadae544
+          region: first
   field_me_test_heading:
     -
       value: 'Why Mercury Editor?'
   field_me_test_link:
     -
       uri: 'https://www.drupal.org/project/mercury_editor'
-      title: 'Learn More'
+      title: Button
       options: {  }
   field_me_test_text:
     -
-      value: '<p>Create custom layouts in seconds with Mercury’s easy-to-use Drupal page builder.</p>'
+      value: '<p>Drag-and-drop custom components to build flexible, visually compelling landing pages.</p>'
       format: basic_html

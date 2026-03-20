@@ -1,8 +1,8 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: 7b85dabe-e64e-49b9-9f45-0e5545bd3859
-  bundle: me_test_divider
+  uuid: 51ad1094-5a91-4b1d-b008-9fbf0a95348c
+  bundle: me_test_heading
   default_langcode: en
 default:
   status:
@@ -14,6 +14,6 @@ default:
         layout_paragraphs:
           parent_uuid: null
           region: null
-  revision_translation_affected:
+  field_me_test_heading:
     -
-      value: true
+      value: 'News & Insights'

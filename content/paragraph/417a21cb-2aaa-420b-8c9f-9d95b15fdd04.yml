@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: df20641f-a141-443a-9a51-0ef6961f1960
+  uuid: 417a21cb-2aaa-420b-8c9f-9d95b15fdd04
   bundle: me_test_slideshow
   default_langcode: en
   depends:
@@ -23,9 +23,6 @@ default:
         layout_paragraphs:
           parent_uuid: null
           region: null
-  revision_translation_affected:
-    -
-      value: true
   field_me_test_slides:
     -
       entity: c466b066-eae6-4463-85f9-6ce0619444ce

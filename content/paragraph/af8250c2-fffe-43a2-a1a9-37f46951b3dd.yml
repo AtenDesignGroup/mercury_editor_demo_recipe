@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: 6438c7eb-93b2-46cb-be30-c39e05e7eca8
-  bundle: me_test_featured_card
+  uuid: af8250c2-fffe-43a2-a1a9-37f46951b3dd
+  bundle: me_test_teaser
   default_langcode: en
   depends:
-    c466b066-eae6-4463-85f9-6ce0619444ce: media
+    c7b6faf5-7e4d-4a95-9f23-f121962618f5: media
 default:
   status:
     -
@@ -14,14 +14,11 @@ default:
     -
       value:
         layout_paragraphs:
-          parent_uuid: 7a46443c-5e6b-4c0d-9884-def129a23cb9
+          parent_uuid: ea7b2679-459c-4935-8101-60a3ddcee1de
           region: second
-  revision_translation_affected:
-    -
-      value: true
   field_me_test_heading:
     -
-      value: 'Create custom layouts in seconds with Mercury’s easy-to-use Drupal page builder.'
+      value: 'Don’t limit yourself to subscriptions. This Drupal content editor is built on free software with no licensing fees.'
   field_me_test_link:
     -
       uri: 'https://www.drupal.org/project/mercury_editor'
@@ -29,4 +26,4 @@ default:
       options: {  }
   field_me_test_media:
     -
-      entity: c466b066-eae6-4463-85f9-6ce0619444ce
+      entity: c7b6faf5-7e4d-4a95-9f23-f121962618f5

@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: 3e9b12fb-676e-4278-b9d4-375103b9ba65
+  uuid: ba3c6155-1738-4da9-ad28-7fbaa49e0f95
   bundle: me_test_cta
   default_langcode: en
 default:
@@ -14,18 +14,15 @@ default:
         layout_paragraphs:
           parent_uuid: null
           region: null
-  revision_translation_affected:
-    -
-      value: true
   field_me_test_heading:
     -
-      value: 'keep up with Mercury Editor'
+      value: 'Keep up with Mercury Editor'
   field_me_test_links:
     -
-      uri: 'internal:/'
-      title: 'Get in Touch'
+      uri: 'https://www.drupal.org/project/mercury_editor'
+      title: 'Get In Touch'
       options: {  }
     -
-      uri: 'internal:/'
+      uri: 'https://www.drupal.org/project/mercury_editor'
       title: Newsletter
       options: {  }

@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: b2b9dbb8-e933-4f51-964e-cffe0c4aebf8
+  uuid: b770d1c5-dc4b-4cc2-8144-968db1f42302
   bundle: me_test_heading
   default_langcode: en
 default:
@@ -12,11 +12,8 @@ default:
     -
       value:
         layout_paragraphs:
-          parent_uuid: null
-          region: null
-  revision_translation_affected:
-    -
-      value: true
+          parent_uuid: 3dc7b03c-7635-4abe-b5bf-fa8fdadae544
+          region: top
   field_me_test_heading:
     -
-      value: 'News & Insights'
+      value: 'Key Features'

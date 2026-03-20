@@ -26,3 +26,18 @@ config:
           node:
             me_test_ct: me_test_ct
         edit_screen_theme: claro
+        outline_component_icons:
+          me_test_section: section
+          me_test_banner: image
+          me_test_button: button
+          me_test_card: card
+          me_test_cta: button
+          me_test_divider: divider
+          me_test_featured_card: card
+          me_test_featured_teaser: card
+          me_test_heading: heading
+          me_test_slideshow: gallery
+          me_test_teaser: card
+          me_test_text: text
+
+content:

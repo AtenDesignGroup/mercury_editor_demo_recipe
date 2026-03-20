@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: 6438c7eb-93b2-46cb-be30-c39e05e7eca8
+  uuid: 495b6465-b416-471f-99a8-87cc03413920
   bundle: me_test_featured_card
   default_langcode: en
   depends:
@@ -14,11 +14,8 @@ default:
     -
       value:
         layout_paragraphs:
-          parent_uuid: 7a46443c-5e6b-4c0d-9884-def129a23cb9
+          parent_uuid: 3dc7b03c-7635-4abe-b5bf-fa8fdadae544
           region: second
-  revision_translation_affected:
-    -
-      value: true
   field_me_test_heading:
     -
       value: 'Create custom layouts in seconds with Mercury’s easy-to-use Drupal page builder.'

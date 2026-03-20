@@ -1,8 +1,8 @@
 _meta:
   version: '1.0'
   entity_type: paragraph
-  uuid: 7b85dabe-e64e-49b9-9f45-0e5545bd3859
-  bundle: me_test_divider
+  uuid: ea7b2679-459c-4935-8101-60a3ddcee1de
+  bundle: me_test_section
   default_langcode: en
 default:
   status:
@@ -12,8 +12,8 @@ default:
     -
       value:
         layout_paragraphs:
+          layout: layout_threecol_33_34_33
+          config:
+            label: ''
           parent_uuid: null
           region: null
-  revision_translation_affected:
-    -
-      value: true

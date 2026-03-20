@@ -9,7 +9,7 @@
         "source": "https://github.com/atendesigngroup/mercury_editor_demo_recipe"
     },
     "require": {
-      "drupal/mercury_editor": "",
+      "drupal/mercury_editor": "^3.0.0-alpha14",
       "atendesigngroup/mercury_editor_demo": "dev-main",
       "drupal/mercury_layouts": "2.0.x-dev",
       "drupal/twig_field_value": "^2.0",

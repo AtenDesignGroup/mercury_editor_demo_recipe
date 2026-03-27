@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.me_test_image.field_me_test_caption
+    - field.field.paragraph.me_test_image.field_me_test_media
+    - paragraphs.paragraphs_type.me_test_image
+id: paragraph.me_test_image.default
+targetEntityType: paragraph
+bundle: me_test_image
+mode: default
+content:
+  field_me_test_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {}
+    weight: 0
+    region: content
+  field_me_test_caption:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {}
+    weight: 1
+    region: content
+hidden: {}

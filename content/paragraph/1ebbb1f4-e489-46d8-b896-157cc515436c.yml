@@ -2,7 +2,7 @@ _meta:
   version: '1.0'
   entity_type: paragraph
   uuid: 1ebbb1f4-e489-46d8-b896-157cc515436c
-  bundle: me_test_banner
+  bundle: me_test_card
   default_langcode: en
 default:
   status:
@@ -11,6 +11,9 @@ default:
   behavior_settings:
     -
       value:
+        style_options:
+          card_style:
+            css_class: banner
         layout_paragraphs:
           parent_uuid: 4e7f9fef-6a27-445e-a557-b150c1d22fc4
           region: content

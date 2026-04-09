@@ -4,16 +4,16 @@ dependencies:
   config:
     - field.storage.paragraph.field_me_test_media
     - media.type.image
-    - paragraphs.paragraphs_type.me_test_featured_teaser
-id: paragraph.me_test_featured_teaser.field_me_test_media
+    - paragraphs.paragraphs_type.me_test_card
+id: paragraph.me_test_card.field_me_test_media
 field_name: field_me_test_media
 entity_type: paragraph
-bundle: me_test_featured_teaser
+bundle: me_test_card
 label: Media
 description: ''
 required: false
-translatable: false
-default_value: {  }
+translatable: true
+default_value: {}
 default_value_callback: ''
 settings:
   handler: 'default:media'

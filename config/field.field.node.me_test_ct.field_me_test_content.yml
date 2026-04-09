@@ -14,7 +14,7 @@ label: 'Page Content'
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value: {}
 default_value_callback: ''
 settings:
   handler: 'default:paragraph'
@@ -22,10 +22,10 @@ settings:
     target_bundles: null
     negate: 0
     target_bundles_drag_drop:
-      me_test_banner:
+      me_test_section:
         weight: 0
         enabled: true
-      me_test_section:
+      me_test_card:
         weight: 1
         enabled: true
       me_test_text:
@@ -34,25 +34,16 @@ settings:
       me_test_image:
         weight: 3
         enabled: true
-      me_test_gallery:
+      me_test_slideshow:
         weight: 4
         enabled: true
-      me_test_video:
+      me_test_heading:
         weight: 5
         enabled: true
-      me_test_card:
+      me_test_button:
         weight: 6
         enabled: true
-      me_test_featured_card:
+      me_test_divider:
         weight: 7
-        enabled: true
-      me_test_slideshow:
-        weight: 8
-        enabled: true
-      me_test_cta:
-        weight: 9
-        enabled: true
-      me_test_teaser:
-        weight: 10
         enabled: true
 field_type: entity_reference_revisions

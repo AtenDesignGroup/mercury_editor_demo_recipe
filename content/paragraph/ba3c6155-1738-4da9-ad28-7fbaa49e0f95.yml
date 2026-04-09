@@ -2,7 +2,7 @@ _meta:
   version: '1.0'
   entity_type: paragraph
   uuid: ba3c6155-1738-4da9-ad28-7fbaa49e0f95
-  bundle: me_test_cta
+  bundle: me_test_card
   default_langcode: en
 default:
   status:
@@ -11,6 +11,9 @@ default:
   behavior_settings:
     -
       value:
+        style_options:
+          card_style:
+            css_class: cta
         layout_paragraphs:
           parent_uuid: null
           region: null

@@ -3,18 +3,18 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_me_test_links
-    - paragraphs.paragraphs_type.me_test_cta
+    - paragraphs.paragraphs_type.me_test_card
   module:
     - link
-id: paragraph.me_test_cta.field_me_test_links
+id: paragraph.me_test_card.field_me_test_links
 field_name: field_me_test_links
 entity_type: paragraph
-bundle: me_test_cta
+bundle: me_test_card
 label: Buttons
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value: {}
 default_value_callback: ''
 settings:
   link_type: 17

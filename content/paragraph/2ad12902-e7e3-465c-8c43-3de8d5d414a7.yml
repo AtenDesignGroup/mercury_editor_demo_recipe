@@ -2,7 +2,7 @@ _meta:
   version: '1.0'
   entity_type: paragraph
   uuid: 2ad12902-e7e3-465c-8c43-3de8d5d414a7
-  bundle: me_test_featured_card
+  bundle: me_test_card
   default_langcode: en
   depends:
     99bb5b8f-3745-4ab4-af67-e8d1b5001584: media
@@ -13,6 +13,9 @@ default:
   behavior_settings:
     -
       value:
+        style_options:
+          card_style:
+            css_class: featured_card
         layout_paragraphs:
           parent_uuid: null
           region: null

@@ -2,7 +2,7 @@ _meta:
   version: '1.0'
   entity_type: paragraph
   uuid: b27eee6e-dced-47fe-af37-c7a5d37f71f3
-  bundle: me_test_teaser
+  bundle: me_test_card
   default_langcode: en
   depends:
     61a69839-97b2-4911-b7db-0ef3f3e8ad86: media
@@ -13,6 +13,9 @@ default:
   behavior_settings:
     -
       value:
+        style_options:
+          card_style:
+            css_class: teaser
         layout_paragraphs:
           parent_uuid: 6ff747f1-c3d6-459c-9c98-701801573ec3
           region: second
@@ -25,7 +28,7 @@ default:
   field_me_test_link:
     -
       uri: 'https://www.drupal.org/project/mercury_editor'
-      title: ''
+      title: 'Learn more'
       options: {  }
   field_me_test_media:
     -

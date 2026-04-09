@@ -14,7 +14,10 @@ label: Link
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  - uri: ''
+    title: 'Learn more'
+    options: {}
 default_value_callback: ''
 settings:
   title: 2

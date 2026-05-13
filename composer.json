@@ -10,16 +10,11 @@
     },
     "require": {
       "drupal/core": "^10.3 || ^11",
-      "drupal/mercury_editor": "^3.0.0-alpha14",
-      "drupal/mercury_editor_demo": "^3.0@alpha",
-      "drupal/mercury_layouts": "2.0.x-dev",
+      "drupal/mercury_editor_demo": "^3",
+      "drupal/mercury_editor": "^2 || ^3",
+      "drupal/mercury_layouts": ">=2.0",
       "drupal/heading": "^2",
       "drupal/twig_field_value": "^2.0",
       "drupal/svg_image": "^3.0"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "sort-packages": true
     }
 }

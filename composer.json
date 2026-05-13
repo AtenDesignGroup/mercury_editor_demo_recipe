@@ -8,8 +8,13 @@
         "issues": "https://www.drupal.org/project/issues/mercury_editor_demo_recipe",
         "source": "https://github.com/atendesigngroup/mercury_editor_demo_recipe"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
     "require": {
-      "drupal/core": "^10.3 || ^11",
       "drupal/mercury_editor_demo": "^3",
       "drupal/mercury_editor": "^2 || ^3",
       "drupal/mercury_layouts": ">=2.0",

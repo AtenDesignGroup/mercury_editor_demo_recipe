@@ -10,7 +10,7 @@
     },
     "require": {
       "drupal/core": ">=10.3",
-      "drupal/mercury_editor_demo": "^3",
+      "drupal/mercury_editor_demo-mercury_editor_demo": "^3",
       "drupal/mercury_editor": "^2 || ^3",
       "drupal/mercury_layouts": ">=2.0",
       "drupal/heading": "^2",

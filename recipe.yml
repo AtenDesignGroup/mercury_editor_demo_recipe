@@ -1,6 +1,6 @@
 name: 'Mercury Editor Demo'
 description: 'Sets up the Mercury Editor demo content type, paragraph types, and content builder configuration.'
-type: 'Site'
+type: 'Authoring'
 
 recipes:
   - core/recipes/image_media_type
